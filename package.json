@@ -1,0 +1,28 @@
+{
+  "name": "puppeteerpdfdemo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "ts": "tsc --build tsconfig.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jiaozitang/puppeteerPdfDemo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jiaozitang/puppeteerPdfDemo/issues"
+  },
+  "homepage": "https://github.com/jiaozitang/puppeteerPdfDemo#readme",
+  "devDependencies": {
+    "@types/node": "^14.14.33"
+  },
+  "dependencies": {
+    "chance": "^1.1.7",
+    "path": "^0.12.7",
+    "puppeteer": "^8.0.0"
+  }
+}
